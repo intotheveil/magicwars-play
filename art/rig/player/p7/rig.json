@@ -1,0 +1,300 @@
+{
+ "version": 2,
+ "figure": "p7",
+ "name": "Player figure p7",
+ "source": {
+  "sheet": "art/raw/PLY-007/PLY-007_01.png",
+  "crop": [
+   64,
+   22,
+   978,
+   1492
+  ],
+  "exportScale": 0.5,
+  "model": "isnet-general-use",
+  "key": [
+   120.0,
+   120.0,
+   119.0
+  ],
+  "joints": "mediapipe",
+  "exporter": "pipeline/export_player_rigs.py"
+ },
+ "space": "figure",
+ "facing": "right",
+ "box": {
+  "x": 0,
+  "y": 0,
+  "w": 457,
+  "h": 735
+ },
+ "cutout": "cutout.png",
+ "root": "torso",
+ "margin": 12,
+ "soles": {
+  "x": 224.0,
+  "y": 732
+ },
+ "shadow": {
+  "x": 224.0,
+  "y": 722.2,
+  "rx": 201.0,
+  "ry": 49.3,
+  "alpha": 0.5
+ },
+ "standHeight": 728,
+ "relHeight": 1.0,
+ "stance": 1.0,
+ "joints": {
+  "nose": [
+   223.8,
+   70.8
+  ],
+  "mouth": [
+   216.4,
+   83.1
+  ],
+  "shoulder_r": [
+   255.9,
+   134.5
+  ],
+  "elbow_r": [
+   338.4,
+   152.5
+  ],
+  "wrist_r": [
+   407.7,
+   111.0
+  ],
+  "shoulder_l": [
+   140.1,
+   152.2
+  ],
+  "elbow_l": [
+   115.7,
+   251.6
+  ],
+  "wrist_l": [
+   68.5,
+   328.3
+  ],
+  "hip_r": [
+   253.8,
+   327.5
+  ],
+  "hip_l": [
+   185.9,
+   331.6
+  ]
+ },
+ "appearance": {
+  "channels": {
+   "r": "stole",
+   "g": "thread",
+   "b": "pin"
+  },
+  "ref": {
+   "stole": 0.1916,
+   "thread": 0.2712,
+   "pin": 0.375
+  },
+  "pin": {
+   "part": "torso",
+   "x": 53.5,
+   "y": 43.8,
+   "r": 9.7
+  },
+  "coverage": {
+   "stole": 23994,
+   "thread": 4206,
+   "pin": 293
+  }
+ },
+ "restDiff": {
+  "meanAbsDiff": 0.0,
+  "maxAbsDiff": 0,
+  "pxOver1": 0
+ },
+ "checks": {
+  "torsoAboveBoots": true,
+  "legsReachSoles": true,
+  "minLimbPx": 4150,
+  "pinFound": true
+ },
+ "parts": {
+  "legs": {
+   "file": "legs.webp",
+   "mask": "legs.mask.png",
+   "joint": "hips",
+   "parent": null,
+   "z": 0,
+   "box": {
+    "x": 68,
+    "y": 318,
+    "w": 313,
+    "h": 416
+   },
+   "pivot": {
+    "x": 219.9,
+    "y": 329.6
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 34825,
+   "extensionPx": 7350
+  },
+  "torso": {
+   "file": "torso.webp",
+   "mask": "torso.mask.png",
+   "joint": "hips",
+   "parent": null,
+   "z": 5,
+   "box": {
+    "x": 95,
+    "y": 104,
+    "w": 255,
+    "h": 419
+   },
+   "pivot": {
+    "x": 219.9,
+    "y": 329.6
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 52991,
+   "extensionPx": 435
+  },
+  "head": {
+   "file": "head.webp",
+   "joint": "neck",
+   "parent": "torso",
+   "z": 6,
+   "box": {
+    "x": 141,
+    "y": 2,
+    "w": 113,
+    "h": 125
+   },
+   "pivot": {
+    "x": 207.2,
+    "y": 116.7
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 9444,
+   "extensionPx": 0
+  },
+  "arm_r_upper": {
+   "file": "arm_r_upper.webp",
+   "mask": "arm_r_upper.mask.png",
+   "joint": "shoulder_r",
+   "parent": "torso",
+   "z": 2,
+   "box": {
+    "x": 260,
+    "y": 116,
+    "w": 105,
+    "h": 97
+   },
+   "pivot": {
+    "x": 255.9,
+    "y": 134.5
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 5301,
+   "extensionPx": 753
+  },
+  "arm_r_fore": {
+   "file": "arm_r_fore.webp",
+   "mask": "arm_r_fore.mask.png",
+   "joint": "elbow_r",
+   "parent": "arm_r_upper",
+   "z": 1,
+   "box": {
+    "x": 322,
+    "y": 59,
+    "w": 134,
+    "h": 130
+   },
+   "pivot": {
+    "x": 338.4,
+    "y": 152.5
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 4244,
+   "extensionPx": 707
+  },
+  "arm_l_upper": {
+   "file": "arm_l_upper.webp",
+   "mask": "arm_l_upper.mask.png",
+   "joint": "shoulder_l",
+   "parent": "torso",
+   "z": 4,
+   "box": {
+    "x": 75,
+    "y": 153,
+    "w": 90,
+    "h": 124
+   },
+   "pivot": {
+    "x": 140.1,
+    "y": 152.2
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 4302,
+   "extensionPx": 1649
+  },
+  "arm_l_fore": {
+   "file": "arm_l_fore.webp",
+   "mask": "arm_l_fore.mask.png",
+   "joint": "elbow_l",
+   "parent": "arm_l_upper",
+   "z": 3,
+   "box": {
+    "x": 2,
+    "y": 248,
+    "w": 150,
+    "h": 120
+   },
+   "pivot": {
+    "x": 115.7,
+    "y": 251.6
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 4150,
+   "extensionPx": 704
+  }
+ }
+}

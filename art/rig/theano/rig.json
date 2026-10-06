@@ -1,0 +1,261 @@
+{
+ "version": 2,
+ "figure": "theano",
+ "name": "Theano Argyrou",
+ "source": {
+  "sheet": "art/raw/ENM-001/ENM-001_01.png",
+  "crop": [
+   42,
+   20,
+   948,
+   1492
+  ],
+  "exportScale": 0.5,
+  "model": "isnet-general-use",
+  "key": [
+   120.0,
+   119.0,
+   119.0
+  ],
+  "exporter": "pipeline/export_opponent_rigs.py"
+ },
+ "space": "figure",
+ "facing": "left",
+ "box": {
+  "x": 0,
+  "y": 0,
+  "w": 453,
+  "h": 736
+ },
+ "cutout": "cutout.png",
+ "root": "torso",
+ "margin": 12,
+ "soles": {
+  "x": 254.5,
+  "y": 732
+ },
+ "shadow": {
+  "x": 269.3,
+  "y": 722.2,
+  "rx": 163.1,
+  "ry": 39.5,
+  "alpha": 0.5
+ },
+ "placement": {
+  "desktopPlate": {
+   "x": 1600,
+   "y": 800,
+   "scale": 0.7721
+  }
+ },
+ "perspective": {
+  "horizon": 607,
+  "minSolesY": 740
+ },
+ "relHeight": 0.97,
+ "stance": 1.0,
+ "checks": {
+  "plateBox": [
+   1406,
+   238,
+   1751,
+   800
+  ],
+  "headBox": [
+   1553,
+   236,
+   1631,
+   329
+  ],
+  "raisedHandBox": [
+   1404,
+   281,
+   1488,
+   370
+  ],
+  "headClearsHudCard": true,
+  "solesAbovePanel": true,
+  "leftmostLowX": 1505,
+  "clearOfBasin": true,
+  "sphereGap": 214.2,
+  "clearOfSpray": true,
+  "standHeightPlate": 562.9,
+  "depthFactor": 0.731
+ },
+ "restDiff": {
+  "meanAbsDiff": 0.0,
+  "meanAbsDiffOffSeam": 0.0,
+  "maxAbsDiff": 0,
+  "pxOver1": 0
+ },
+ "parts": {
+  "legs": {
+   "file": "legs.png",
+   "joint": "hips",
+   "parent": null,
+   "z": 0,
+   "box": {
+    "x": 129,
+    "y": 517,
+    "w": 258,
+    "h": 217
+   },
+   "pivot": {
+    "x": 249.0,
+    "y": 400.0
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 21083,
+   "extensionPx": 2965
+  },
+  "torso": {
+   "file": "torso.png",
+   "joint": "hips",
+   "parent": null,
+   "z": 5,
+   "box": {
+    "x": 81,
+    "y": 105,
+    "w": 324,
+    "h": 492
+   },
+   "pivot": {
+    "x": 249.0,
+    "y": 400.0
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 105529,
+   "extensionPx": 457
+  },
+  "head": {
+   "file": "head.png",
+   "joint": "neck",
+   "parent": "torso",
+   "z": 6,
+   "box": {
+    "x": 193,
+    "y": 2,
+    "w": 102,
+    "h": 120
+   },
+   "pivot": {
+    "x": 246.5,
+    "y": 115.0
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 8621,
+   "extensionPx": 0
+  },
+  "arm_r_upper": {
+   "file": "arm_r_upper.png",
+   "joint": "shoulder_r",
+   "parent": "torso",
+   "z": 2,
+   "box": {
+    "x": 56,
+    "y": 120,
+    "w": 104,
+    "h": 105
+   },
+   "pivot": {
+    "x": 176.5,
+    "y": 140.0
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 6035,
+   "extensionPx": 1194
+  },
+  "arm_r_fore": {
+   "file": "arm_r_fore.png",
+   "joint": "elbow_r",
+   "parent": "arm_r_upper",
+   "z": 1,
+   "box": {
+    "x": 1,
+    "y": 60,
+    "w": 108,
+    "h": 115
+   },
+   "pivot": {
+    "x": 101.5,
+    "y": 140.0
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 3552,
+   "extensionPx": 840
+  },
+  "arm_l_upper": {
+   "file": "arm_l_upper.png",
+   "joint": "shoulder_l",
+   "parent": "torso",
+   "z": 4,
+   "box": {
+    "x": 325,
+    "y": 230,
+    "w": 69,
+    "h": 123
+   },
+   "pivot": {
+    "x": 304.0,
+    "y": 145.0
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 4581,
+   "extensionPx": 1651
+  },
+  "arm_l_fore": {
+   "file": "arm_l_fore.png",
+   "joint": "elbow_l",
+   "parent": "arm_l_upper",
+   "z": 3,
+   "box": {
+    "x": 375,
+    "y": 262,
+    "w": 76,
+    "h": 106
+   },
+   "pivot": {
+    "x": 385.0,
+    "y": 280.0
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 2261,
+   "extensionPx": 361
+  }
+ }
+}

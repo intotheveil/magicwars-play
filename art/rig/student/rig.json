@@ -1,0 +1,194 @@
+{
+ "version": 1,
+ "figure": "practical-hall-student",
+ "source": {
+  "cutout": "art/bg/practical-hall-student.png",
+  "still": "STYLE-003S2_01.png",
+  "exporter": "pipeline/export_student_rig.py"
+ },
+ "space": "desktopPlate",
+ "box": {
+  "x": 638,
+  "y": 70,
+  "w": 433,
+  "h": 809
+ },
+ "root": "torso",
+ "margin": 12,
+ "restDiff": {
+  "meanAbsDiff": 0.0,
+  "meanAbsDiffOffSeam": 0.0,
+  "maxAbsDiff": 1,
+  "pxOver1": 0
+ },
+ "parts": {
+  "legs": {
+   "file": "legs.png",
+   "joint": "hips",
+   "parent": null,
+   "z": 0,
+   "box": {
+    "x": 638,
+    "y": 517,
+    "w": 338,
+    "h": 362
+   },
+   "pivot": {
+    "x": 825.0,
+    "y": 361.0
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 45758,
+   "extensionPx": 2498
+  },
+  "torso": {
+   "file": "torso.png",
+   "joint": "hips",
+   "parent": null,
+   "z": 1,
+   "box": {
+    "x": 716,
+    "y": 177,
+    "w": 293,
+    "h": 662
+   },
+   "pivot": {
+    "x": 825.0,
+    "y": 361.0
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 64019,
+   "extensionPx": 6460
+  },
+  "head": {
+   "file": "head.png",
+   "joint": "neck",
+   "parent": "torso",
+   "z": 2,
+   "box": {
+    "x": 732,
+    "y": 70,
+    "w": 170,
+    "h": 159
+   },
+   "pivot": {
+    "x": 855.0,
+    "y": 203.5
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 17601,
+   "extensionPx": 823
+  },
+  "arm_l_fore": {
+   "file": "arm_l_fore.png",
+   "joint": "elbow_l",
+   "parent": "arm_l_upper",
+   "z": 3,
+   "box": {
+    "x": 858,
+    "y": 278,
+    "w": 172,
+    "h": 72
+   },
+   "pivot": {
+    "x": 870.0,
+    "y": 317.2
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 7374,
+   "extensionPx": 585
+  },
+  "arm_l_upper": {
+   "file": "arm_l_upper.png",
+   "joint": "shoulder_l",
+   "parent": "torso",
+   "z": 4,
+   "box": {
+    "x": 782,
+    "y": 191,
+    "w": 88,
+    "h": 153
+   },
+   "pivot": {
+    "x": 830.0,
+    "y": 218.5
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 10080,
+   "extensionPx": 0
+  },
+  "arm_r_fore": {
+   "file": "arm_r_fore.png",
+   "joint": "elbow_r",
+   "parent": "arm_r_upper",
+   "z": 5,
+   "box": {
+    "x": 973,
+    "y": 138,
+    "w": 98,
+    "h": 156
+   },
+   "pivot": {
+    "x": 985.0,
+    "y": 254.8
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 4442,
+   "extensionPx": 397
+  },
+  "arm_r_upper": {
+   "file": "arm_r_upper.png",
+   "joint": "shoulder_r",
+   "parent": "torso",
+   "z": 6,
+   "box": {
+    "x": 885,
+    "y": 201,
+    "w": 103,
+    "h": 88
+   },
+   "pivot": {
+    "x": 897.5,
+    "y": 223.5
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 5888,
+   "extensionPx": 0
+  }
+ }
+}

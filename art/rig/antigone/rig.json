@@ -1,0 +1,261 @@
+{
+ "version": 2,
+ "figure": "antigone",
+ "name": "Antigone Mavrou",
+ "source": {
+  "sheet": "art/raw/ENM-003/ENM-003_01.png",
+  "crop": [
+   22,
+   36,
+   980,
+   1474
+  ],
+  "exportScale": 0.5,
+  "model": "isnet-general-use",
+  "key": [
+   118.0,
+   119.0,
+   120.0
+  ],
+  "exporter": "pipeline/export_opponent_rigs.py"
+ },
+ "space": "figure",
+ "facing": "left",
+ "box": {
+  "x": 0,
+  "y": 0,
+  "w": 479,
+  "h": 719
+ },
+ "cutout": "cutout.png",
+ "root": "torso",
+ "margin": 12,
+ "soles": {
+  "x": 255.5,
+  "y": 716
+ },
+ "shadow": {
+  "x": 280.8,
+  "y": 706.4,
+  "rx": 271.0,
+  "ry": 67.4,
+  "alpha": 0.5
+ },
+ "placement": {
+  "desktopPlate": {
+   "x": 1632,
+   "y": 800,
+   "scale": 0.6727
+  }
+ },
+ "perspective": {
+  "horizon": 607,
+  "minSolesY": 740
+ },
+ "relHeight": 0.95,
+ "stance": 0.87,
+ "checks": {
+  "plateBox": [
+   1463,
+   320,
+   1780,
+   800
+  ],
+  "headBox": [
+   1608,
+   320,
+   1687,
+   417
+  ],
+  "raisedHandBox": [
+   1461,
+   368,
+   1579,
+   452
+  ],
+  "headClearsHudCard": true,
+  "solesAbovePanel": true,
+  "leftmostLowX": 1490,
+  "clearOfBasin": true,
+  "sphereGap": 282.9,
+  "clearOfSpray": true,
+  "standHeightPlate": 551.3,
+  "depthFactor": 0.731
+ },
+ "restDiff": {
+  "meanAbsDiff": 0.0,
+  "meanAbsDiffOffSeam": 0.0,
+  "maxAbsDiff": 0,
+  "pxOver1": 0
+ },
+ "parts": {
+  "legs": {
+   "file": "legs.png",
+   "joint": "hips",
+   "parent": null,
+   "z": 0,
+   "box": {
+    "x": 43,
+    "y": 402,
+    "w": 426,
+    "h": 316
+   },
+   "pivot": {
+    "x": 269.0,
+    "y": 397.0
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 36148,
+   "extensionPx": 2692
+  },
+  "torso": {
+   "file": "torso.png",
+   "joint": "hips",
+   "parent": null,
+   "z": 3,
+   "box": {
+    "x": 134,
+    "y": 111,
+    "w": 315,
+    "h": 377
+   },
+   "pivot": {
+    "x": 269.0,
+    "y": 397.0
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 62899,
+   "extensionPx": 2260
+  },
+  "head": {
+   "file": "head.png",
+   "joint": "neck",
+   "parent": "torso",
+   "z": 4,
+   "box": {
+    "x": 220,
+    "y": 2,
+    "w": 117,
+    "h": 144
+   },
+   "pivot": {
+    "x": 289.0,
+    "y": 132.0
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 11567,
+   "extensionPx": 0
+  },
+  "arm_r_upper": {
+   "file": "arm_r_upper.png",
+   "joint": "shoulder_r",
+   "parent": "torso",
+   "z": 2,
+   "box": {
+    "x": 133,
+    "y": 118,
+    "w": 95,
+    "h": 111
+   },
+   "pivot": {
+    "x": 204.0,
+    "y": 152.0
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 5190,
+   "extensionPx": 1361
+  },
+  "arm_r_fore": {
+   "file": "arm_r_fore.png",
+   "joint": "elbow_r",
+   "parent": "arm_r_upper",
+   "z": 1,
+   "box": {
+    "x": 2,
+    "y": 74,
+    "w": 175,
+    "h": 125
+   },
+   "pivot": {
+    "x": 139.0,
+    "y": 162.0
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 7186,
+   "extensionPx": 922
+  },
+  "arm_l_upper": {
+   "file": "arm_l_upper.png",
+   "joint": "shoulder_l",
+   "parent": "torso",
+   "z": 6,
+   "box": {
+    "x": 345,
+    "y": 143,
+    "w": 49,
+    "h": 126
+   },
+   "pivot": {
+    "x": 354.0,
+    "y": 162.0
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 3698,
+   "extensionPx": 0
+  },
+  "arm_l_fore": {
+   "file": "arm_l_fore.png",
+   "joint": "elbow_l",
+   "parent": "arm_l_upper",
+   "z": 5,
+   "box": {
+    "x": 359,
+    "y": 224,
+    "w": 119,
+    "h": 112
+   },
+   "pivot": {
+    "x": 378.0,
+    "y": 254.5
+   },
+   "rest": {
+    "rotation": 0,
+    "x": 0,
+    "y": 0,
+    "scale": 1
+   },
+   "visiblePx": 4113,
+   "extensionPx": 423
+  }
+ }
+}

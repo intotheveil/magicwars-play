@@ -1,0 +1,212 @@
+{
+ "id": "UI-001d",
+ "frameSize": 256,
+ "note": "pipeline/render_d20.py: tumble = seamless loop; faces[N] = settle sequence ending face-up on N",
+ "tumble": {
+  "image": "tumble.webp",
+  "frames": 16,
+  "cols": 4
+ },
+ "faces": {
+  "1": {
+   "image": "settle-01.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    0.1876,
+    0.57735,
+    -0.79465
+   ]
+  },
+  "2": {
+   "image": "settle-02.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    0.98225,
+    0.0,
+    -0.1876
+   ]
+  },
+  "3": {
+   "image": "settle-03.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    0.79465,
+    -0.57736,
+    0.18759
+   ]
+  },
+  "4": {
+   "image": "settle-04.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    -0.49112,
+    -0.35683,
+    -0.79465
+   ]
+  },
+  "5": {
+   "image": "settle-05.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    -0.1876,
+    0.57735,
+    0.79465
+   ]
+  },
+  "6": {
+   "image": "settle-06.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    -0.30354,
+    0.93417,
+    0.18759
+   ]
+  },
+  "7": {
+   "image": "settle-07.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    0.60706,
+    0.0,
+    -0.79465
+   ]
+  },
+  "8": {
+   "image": "settle-08.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    0.49112,
+    -0.35683,
+    0.79465
+   ]
+  },
+  "9": {
+   "image": "settle-09.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    -0.79465,
+    -0.57736,
+    -0.18759
+   ]
+  },
+  "10": {
+   "image": "settle-10.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    0.30354,
+    0.93417,
+    -0.18759
+   ]
+  },
+  "11": {
+   "image": "settle-11.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    -0.30354,
+    -0.93417,
+    0.18759
+   ]
+  },
+  "12": {
+   "image": "settle-12.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    0.79465,
+    0.57736,
+    0.18759
+   ]
+  },
+  "13": {
+   "image": "settle-13.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    -0.49112,
+    0.35683,
+    -0.79465
+   ]
+  },
+  "14": {
+   "image": "settle-14.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    -0.60706,
+    0.0,
+    0.79465
+   ]
+  },
+  "15": {
+   "image": "settle-15.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    0.30354,
+    -0.93417,
+    -0.18759
+   ]
+  },
+  "16": {
+   "image": "settle-16.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    0.1876,
+    -0.57735,
+    -0.79465
+   ]
+  },
+  "17": {
+   "image": "settle-17.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    0.49112,
+    0.35683,
+    0.79465
+   ]
+  },
+  "18": {
+   "image": "settle-18.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    -0.79465,
+    0.57736,
+    -0.18759
+   ]
+  },
+  "19": {
+   "image": "settle-19.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    -0.98225,
+    0.0,
+    0.1876
+   ]
+  },
+  "20": {
+   "image": "settle-20.webp",
+   "frames": 8,
+   "cols": 8,
+   "normal": [
+    -0.1876,
+    -0.57735,
+    0.79465
+   ]
+  }
+ }
+}

@@ -1,0 +1,698 @@
+{
+ "ui": {
+  "meander_marble": {
+   "w": 1024,
+   "h": 155
+  },
+  "meander_corner": {
+   "w": 169,
+   "h": 193
+  },
+  "embroidery": {
+   "w": 1024,
+   "h": 155
+  },
+  "embroidery_corner": {
+   "w": 178,
+   "h": 189
+  },
+  "meander_bronze": {
+   "w": 1024,
+   "h": 151
+  },
+  "divider": {
+   "w": 252,
+   "h": 84
+  },
+  "seal": {
+   "w": 160,
+   "h": 143
+  },
+  "tablet": {
+   "w": 480,
+   "h": 137,
+   "slice": 34
+  },
+  "emblem_lyre": {
+   "w": 219,
+   "h": 256
+  }
+ },
+ "icons": {
+  "ability_int": {
+   "w": 256,
+   "h": 256
+  },
+  "ability_wis": {
+   "w": 256,
+   "h": 256
+  },
+  "ability_cha": {
+   "w": 256,
+   "h": 256
+  },
+  "ability_dex": {
+   "w": 256,
+   "h": 256
+  },
+  "ability_con": {
+   "w": 256,
+   "h": 256
+  },
+  "ability_str": {
+   "w": 256,
+   "h": 256
+  },
+  "geometria": {
+   "w": 256,
+   "h": 256
+  },
+  "cheironomia": {
+   "w": 256,
+   "h": 256
+  },
+  "mantike": {
+   "w": 256,
+   "h": 256
+  },
+  "peitho": {
+   "w": 256,
+   "h": 256
+  },
+  "askesis": {
+   "w": 256,
+   "h": 256
+  },
+  "koina": {
+   "w": 256,
+   "h": 256
+  }
+ },
+ "portraits": {
+  "student": {
+   "w": 384,
+   "h": 512
+  },
+  "theano": {
+   "w": 384,
+   "h": 512
+  },
+  "scholarch": {
+   "w": 384,
+   "h": 512
+  },
+  "rada": {
+   "w": 384,
+   "h": 512
+  },
+  "diotima": {
+   "w": 384,
+   "h": 512
+  },
+  "emir": {
+   "w": 384,
+   "h": 512
+  },
+  "stelios": {
+   "w": 384,
+   "h": 512
+  }
+ },
+ "bg": {
+  "practical-hall": {
+   "w": 1920,
+   "h": 1080,
+   "student": [
+    0.44,
+    0.47
+   ],
+   "sphere": [
+    0.57,
+    0.28
+   ],
+   "basin": [
+    0.64,
+    0.78
+   ],
+   "opponentZone": [
+    0.8,
+    0.5
+   ]
+  },
+  "practical-hall-idle": {
+   "w": 1280,
+   "h": 704,
+   "fps": 24,
+   "frames": 192,
+   "loop": "ping-pong",
+   "inDesktopPlate": {
+    "scale": 1.5,
+    "x": 0,
+    "y": 7
+   }
+  },
+  "practical-hall-phone": {
+   "w": 1080,
+   "h": 1920,
+   "student": [
+    0.3,
+    0.47
+   ],
+   "sphere": [
+    0.6,
+    0.28
+   ],
+   "opponentZone": [
+    0.8,
+    0.42
+   ]
+  },
+  "practical-hall-student": {
+   "w": 433,
+   "h": 809,
+   "inDesktopPlate": {
+    "x": 638,
+    "y": 70,
+    "w": 433,
+    "h": 809
+   },
+   "excludes": {
+    "sphere": {
+     "cx": 1098,
+     "cy": 287,
+     "r": 100
+    }
+   },
+   "source": {
+    "file": "STYLE-003S2_01.png",
+    "crop": [
+     460,
+     90,
+     1010,
+     840
+    ],
+    "model": "isnet-general-use"
+   }
+  },
+  "sacred-harbour": {
+   "w": 1920,
+   "h": 1280,
+   "gate": [
+    0.615,
+    0.4
+   ],
+   "box": [
+    0.76,
+    0.43
+   ],
+   "boat": [
+    0.16,
+    0.7
+   ]
+  },
+  "sacred-harbour-phone": {
+   "w": 1080,
+   "h": 1920,
+   "sourceCrop": [
+    656,
+    0,
+    1232,
+    1024
+   ]
+  },
+  "terrace-lions": {
+   "w": 1920,
+   "h": 1280,
+   "source": "STYLE-004A_01"
+  },
+  "terrace-lions-phone": {
+   "w": 1080,
+   "h": 1920,
+   "sourceCrop": [
+    120,
+    0,
+    696,
+    1024
+   ]
+  },
+  "terrace-room": {
+   "w": 1920,
+   "h": 1279,
+   "sourceCrop": [
+    838,
+    30,
+    1536,
+    495
+   ],
+   "note": "BG-006 fallback (orientation.md \u00a70)"
+  },
+  "stoa": {
+   "w": 1920,
+   "h": 1280,
+   "source": "BG-003"
+  },
+  "stoa-phone": {
+   "w": 1080,
+   "h": 1920,
+   "source": "BG-003"
+  },
+  "cistern": {
+   "w": 1920,
+   "h": 1280,
+   "source": "BG-004"
+  },
+  "cistern-phone": {
+   "w": 1080,
+   "h": 1920,
+   "source": "BG-004"
+  },
+  "room": {
+   "w": 1920,
+   "h": 1280,
+   "source": "BG-006"
+  },
+  "room-phone": {
+   "w": 1080,
+   "h": 1920,
+   "source": "BG-006"
+  }
+ },
+ "player": {
+  "p1": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-001L1_01.png",
+    "face": [
+     290,
+     90
+    ]
+   }
+  },
+  "p2": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-001L1_01.png",
+    "face": [
+     612,
+     50
+    ]
+   }
+  },
+  "p3": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-001L1_01.png",
+    "face": [
+     940,
+     110
+    ]
+   }
+  },
+  "p4": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-001L1_01.png",
+    "face": [
+     1318,
+     40
+    ]
+   }
+  },
+  "p5": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-001L2_01.png",
+    "face": [
+     255,
+     95
+    ]
+   }
+  },
+  "p6": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-001L2_01.png",
+    "face": [
+     612,
+     40
+    ]
+   }
+  },
+  "p7": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-001L2_01.png",
+    "face": [
+     962,
+     70
+    ]
+   }
+  },
+  "p8": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-001L2_01.png",
+    "face": [
+     1340,
+     80
+    ]
+   }
+  },
+  "p9": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-002L3_01.png",
+    "face": [
+     270,
+     95
+    ]
+   }
+  },
+  "p10": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-002L3_01.png",
+    "face": [
+     600,
+     55
+    ]
+   }
+  },
+  "p11": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-002L3_01.png",
+    "face": [
+     950,
+     85
+    ]
+   }
+  },
+  "p12": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-002L3_01.png",
+    "face": [
+     1320,
+     45
+    ]
+   }
+  },
+  "p13": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-002L4_01.png",
+    "face": [
+     210,
+     125
+    ]
+   }
+  },
+  "p14": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-002L4_01.png",
+    "face": [
+     600,
+     50
+    ]
+   }
+  },
+  "p15": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-002L4_01.png",
+    "face": [
+     950,
+     195
+    ]
+   }
+  },
+  "p16": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-002L4_01.png",
+    "face": [
+     1290,
+     30
+    ]
+   }
+  },
+  "p17": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-002L5_01.png",
+    "face": [
+     210,
+     135
+    ]
+   }
+  },
+  "p18": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-002L5_01.png",
+    "face": [
+     600,
+     40
+    ]
+   }
+  },
+  "p19": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-002L5_01.png",
+    "face": [
+     960,
+     230
+    ]
+   }
+  },
+  "p20": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-002L5_01.png",
+    "face": [
+     1340,
+     90
+    ]
+   }
+  },
+  "p21": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-002L6_01.png",
+    "face": [
+     260,
+     65
+    ]
+   }
+  },
+  "p22": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-002L6_01.png",
+    "face": [
+     600,
+     115
+    ]
+   }
+  },
+  "p23": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-002L6_01.png",
+    "face": [
+     985,
+     65
+    ]
+   }
+  },
+  "p24": {
+   "w": 384,
+   "h": 512,
+   "thumb": [
+    128,
+    171
+   ],
+   "source": {
+    "file": "CHR-002L6_01.png",
+    "face": [
+     1340,
+     150
+    ]
+   }
+  }
+ },
+ "key": {
+  "arrival-box": {
+   "w": 1920,
+   "h": 1280
+  }
+ },
+ "crests": {
+  "haemus": {
+   "w": 256,
+   "h": 256
+  },
+  "hesperia": {
+   "w": 256,
+   "h": 256
+  },
+  "atlantica": {
+   "w": 256,
+   "h": 256
+  },
+  "north": {
+   "w": 256,
+   "h": 256
+  },
+  "steppe": {
+   "w": 256,
+   "h": 256
+  },
+  "crescent": {
+   "w": 256,
+   "h": 256
+  },
+  "nile-horn": {
+   "w": 256,
+   "h": 256
+  },
+  "great-rivers": {
+   "w": 256,
+   "h": 256
+  },
+  "indus-ganges": {
+   "w": 256,
+   "h": 256
+  },
+  "eastern-seas": {
+   "w": 256,
+   "h": 256
+  },
+  "archipelagos": {
+   "w": 256,
+   "h": 256
+  },
+  "americas": {
+   "w": 256,
+   "h": 256
+  }
+ }
+}
